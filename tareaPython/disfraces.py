@@ -19,7 +19,7 @@ verificar_tematica()
 def gestionar_acompanantes():
     limite_acompanantes = 3
 
-    respuesta = input("¿Llevarás acompañantes? (s/n): ")
+    respuesta = input("¿rLlevarás acompañantes? (s/n): ")
 
     if respuesta.lower() == 's':
         num_acompanantes = int(input("¿Cuántos acompañantes llevarás?: "))
@@ -43,8 +43,8 @@ def mascota():
 
         if num_mascota <= limite_mascota:
             print(f"¡Bienvenido! Traerás a {num_mascota} mascotas.")
-        else:
-            print(f"Lo siento, solo puedes traer hasta {limite_mascota} mascotas.")
+        else:3
+        print(f"Lo siento, solo puedes traer hasta {limite_mascota} mascotas.")
     else:
         print("¡Bienvenido! No traerás mascotas.")
 
